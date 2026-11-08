@@ -1,0 +1,2 @@
+# Configuração do Ruff para os programas do TCC
+line-length = 120

@@ -1,0 +1,6 @@
+__pycache__/
+.ruff_cache/
+*.pyc
+# dados brutos: não são publicados (regras de uso das fontes)
+*.csv
+*.bi5

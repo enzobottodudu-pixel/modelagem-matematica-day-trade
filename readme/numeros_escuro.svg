@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 166" width="1200" height="166" role="img">
+<title>Os números do trabalho</title>
+<style>
+text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+.card { opacity: 0; animation: entra .8s cubic-bezier(.2,.8,.2,1) forwards; }
+@keyframes entra { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+.barra { transform-box: fill-box; transform-origin: left; transform: scaleX(0);
+  animation: cresce 1.2s cubic-bezier(.2,.8,.2,1) forwards, respira 3s ease-in-out 2s infinite; }
+@keyframes cresce { to { transform: scaleX(1); } }
+@keyframes respira { 0%, 100% { opacity: 1; transform: scaleX(1); } 50% { opacity: .45; transform: scaleX(1); } }
+</style>
+<g class="card" style="animation-delay:0.15s"><rect x="8" y="8" width="282" height="150" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1.5"/><rect class="barra" style="animation-delay:0.60s" x="30" y="132" width="238" height="4" rx="2" fill="#58a6ff"/><text x="30" y="78" font-size="46" font-weight="700" fill="#58a6ff">9</text><text x="30" y="112" font-size="16" fill="#8b949e">ativos, do EUR/USD à MGLU3</text></g><g class="card" style="animation-delay:0.33s"><rect x="306" y="8" width="282" height="150" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1.5"/><rect class="barra" style="animation-delay:0.78s" x="328" y="132" width="238" height="4" rx="2" fill="#bc8cff"/><text x="328" y="78" font-size="46" font-weight="700" fill="#bc8cff">3.116</text><text x="328" y="112" font-size="16" fill="#8b949e">operações no mês de teste</text></g><g class="card" style="animation-delay:0.51s"><rect x="604" y="8" width="282" height="150" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1.5"/><rect class="barra" style="animation-delay:0.96s" x="626" y="132" width="238" height="4" rx="2" fill="#f85149"/><text x="626" y="78" font-size="46" font-weight="700" fill="#f85149">−0,7%</text><text x="626" y="112" font-size="16" fill="#8b949e">a melhor (IFR), com custos</text></g><g class="card" style="animation-delay:0.69s"><rect x="902" y="8" width="282" height="150" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1.5"/><rect class="barra" style="animation-delay:1.14s" x="924" y="132" width="238" height="4" rx="2" fill="#3fb950"/><text x="924" y="78" font-size="46" font-weight="700" fill="#3fb950">+20,6%</text><text x="924" y="112" font-size="16" fill="#8b949e">buy and hold, no mesmo mês</text></g>
+</svg>
