@@ -1027,7 +1027,9 @@ Esses resultados valem para as condições testadas: um único mês de teste, qu
 
 # **4 CONCLUSÃO**
 
-O presente trabalho buscou saber se a matemática aplicada no *day trade* ajuda ou não a ter lucros consistentes no mercado financeiro. Quatro estratégias e uma de regressão linear foram testadas em regras de computador, todas feitas em Python, e foram testadas com custo, sem custo e o *buy and hold*. Nenhuma das estratégias obteve uma vantagem estatística e matemática, pois os dados utilizados para a pesquisa são muito curtos para um *backtest* e depois replicar 30 dias no OOS. Além disso, a regressão linear foi treinada em uma amostra muito pequena (IS), e, no período de teste (OOS), a grande maioria dos ativos subiu, mas no mercado existem períodos de lateralização, de alta e de baixa e as estratégias não foram testadas em outros períodos de mercado apenas com dados coletados.
+O presente trabalho buscou saber se a matemática aplicada no *day trade* ajuda ou não a ter lucros consistentes no mercado financeiro. Quatro estratégias e uma de regressão linear foram testadas em regras de computador, todas feitas em Python, e foram testadas com custo, sem custo e o *buy and hold*. Nenhuma das estratégias obteve uma vantagem estatística e matemática, pois os dados utilizados para a pesquisa são muito curtos para um *backtest* e depois replicar 30 dias no OOS. 
+
+Além disso, a regressão linear foi treinada em uma amostra muito pequena (IS), e, no período de teste (OOS), a grande maioria dos ativos subiu, mas no mercado existem períodos de lateralização, de alta e de baixa e as estratégias não foram testadas em outros períodos de mercado apenas com dados coletados.
 
 Os custos foram uma pista importante para isso. Um exemplo é o cruzamento de médias móveis que fez mais de 1.000 operações no *timeframe* de 5 minutos e, se não tivesse custos, a estratégia no período de OOS teria ficado positiva, mas com os custos incluídos a estratégia passou a ser negativa.
 
